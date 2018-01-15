@@ -1,0 +1,169 @@
+/*General styling*/
+body{
+	background-color:#ffffff;
+	font-family:Sans-Serif;
+	color:#444444;
+	display:inline-block;
+	text-align:justify;
+}
+.wrapper{
+	width:100%;
+	display:table;
+}
+.wrapper .centerWrap{
+	margin:1.5% 4%;
+	border:#444444 4px solid;
+	border-radius:25px;
+	display:table;
+	padding:1%;
+	width:90%;
+}
+.wrapper .centerWrap img{
+	border:10px solid #444444;
+	margin:1%;
+	border-radius:50%;
+	width:40%;
+	float:left;
+}
+.wrapper .centerWrap h2{
+	text-align:center;
+	margin-top:4%;
+}
+.wrapper .centerWrap .linkbar{
+	text-align:center;
+	margin-top:2%;
+	padding:1%;
+	margin-bottom:2%;
+}
+.wrapper .centerWrap .linkbar a{
+	color:#333333;
+	font-weight:bold;
+	text-decoration:none;
+	padding:1.2%;
+	margin:.5%;
+	background-color:rgba(20,20,20,0.3);
+	border-radius:12px;
+	border:solid #444444 2px;
+}
+.wrapper .centerWrap .linkbar a:hover{
+	color:#ce790a;
+	border:solid 2px #ce790a;
+}
+.wrapper .centerWrap .contactBar{
+	float:left;
+	margin:1%;
+	width:25%;
+	display:table;
+}
+.wrapper .centerWrap .contactBar p{
+	margin-top:4%;
+}
+.wrapper .centerWrap .contactBar .social{
+	margin: 2%;
+	float:left;
+	width: 95%;
+	display:table;
+}
+
+.wrapper .centerWrap .contactBar .social img{
+	border:none;
+	width:23%;
+	margin:2%;
+}
+.wrapper .centerWrap .contactBar .social a{
+	color:#ffffff;
+	text-decoration:none;
+	position:absolute;
+	margin-top:1.5%;
+}
+.wrapper .centerWrap figure{
+	float:left;
+	width:20%;
+	margin:1%;
+	padding:0;
+	display:table;
+}
+.wrapper .centerWrap figure img{
+	border:none;
+}
+.wrapper .centerWrap figure figcaption{
+	margin-top:20%;
+}
+	
+.wrapper .centerWrap .bottomLine{
+	bottom:2%;
+	float:left;
+	width:100%;
+}
+.wrapper .centerWrap .bottomLine a{
+	color:#444444;
+	margin:2%;
+}
+
+/*CSS Media responsive query*/
+@media screen and (max-width:1000px){
+	.wrapper .centerWrap img{
+		margin:auto;
+		border-radius:50%;
+		margin-left:25%;
+	}
+	.wrapper .centerWrap h2{
+		margin-top:2%;
+		float:left;
+		width:100%;
+	}
+	.wrapper .centerWrap hr{
+		float:left;
+		width:100%;
+		margin:0;
+	}
+	.wrapper .centerWrap p{
+	float:left;
+}
+	.wrapper .centerWrap .linkbar{
+		margin-top:2%;
+		margin-bottom:2%;
+		float:left;
+		width:100%;
+	}
+	.wrapper .centerWrap .linkbar a{
+		float:left;
+		width:30%;
+		font-size:80%;
+	}
+	.wrapper .centerWrap .contactBar{
+		float:left;
+		margin:1%;
+		width:auto;
+	}
+	.wrapper .centerWrap .contactBar p{
+		margin-top:4%;
+	}
+	.wrapper .centerWrap .contactBar .social{
+		margin-left:0;
+		float:left;
+		width: 95%;
+	}
+
+	.wrapper .centerWrap .contactBar .social img{
+		margin-left:0;
+		width:12%;
+	}
+	.wrapper .centerWrap .contactBar .social a{
+		position:absolute;
+		margin-top:4%;
+	}
+	.wrapper .centerWrap figure{
+		float:left;
+		width:60%;
+		margin:1.5%;
+		margin-left:0;
+		padding:1%;
+	}
+	.wrapper .centerWrap figure img{
+		align:left;
+	}
+	.wrapper .centerWrap figure figcaption{
+		text-align:center;
+	}
+}
