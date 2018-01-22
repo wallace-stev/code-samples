@@ -3,7 +3,7 @@ import java.math.BigInteger;
 import java.security.MessageDigest;
 /*
  * Title: Java MD5 Hash Generator
- * Author: Wallace S. Msagusa
+ * Author: Wallace S. Msagusa & Tusekile Raphael
  */
 
 /*
